@@ -1,0 +1,35 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "This where the title of the blog",
+            "description": "This is where the contents description would be placed at",
+            "date": "June 09, 2023 11:22:45 AM",
+            "content": "The content of the blog goes here, ... "
+        },
+
+        {
+            "id": 2,
+            "title": "This where the title of the blog",
+            "description": "This is where the contents description would be placed at",
+            "date": "June 09, 2023 11:22:45 AM",
+            "content": "The content of the blog goes here, ... "
+        },
+
+        {
+            "id": 3,
+            "title": "This where the title of the blog",
+            "description": "This is where the contents description would be placed at",
+            "date": "June 09, 2023 11:22:45 AM",
+            "content": "The content of the blog goes here, ... "
+        },
+
+        {
+            "id": 4,
+            "title": "This where the title of the blog",
+            "description": "This is where the contents description would be placed at",
+            "date": "June 09, 2023 11:22:45 AM",
+            "content": "The content of the blog goes here, ... "
+        }
+    ]
+}
