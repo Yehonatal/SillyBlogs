@@ -1,5 +1,6 @@
 import { FaArrowDown } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,24 +14,28 @@ const Header = () => {
             <div className="flex items-center p-2 gap-5 ">
                 <nav className="max-lg:block max-md:block max-sm:hidden select-none">
                     <ul className="flex items-center p-2 gap-5 font-bold cursor-pointer text-[#121245]">
-                        <li className="p-2 rounded-lg hover:underline flex-1 font-bold">
+                        <Link
+                            to={"/"}
+                            className="p-2 rounded-lg hover:underline flex-1 font-bold"
+                        >
                             Home
-                        </li>
-                        <li className="flex font-bold items-center  hover:underline  p-2 gap-2  rounded-lg  flex-1 ">
-                            Products{" "}
-                            <span>
-                                <FaArrowDown className="text-sm" />
-                            </span>
-                        </li>
-                        <li className="flex items-center hover:underline  p-2 gap-2 rounded-lg flex-1 font-bold">
+                        </Link>
+
+                        <Link
+                            to={"/resources"}
+                            className="flex items-center hover:underline  p-2 gap-2 rounded-lg flex-1 font-bold"
+                        >
                             Resources{" "}
                             <span>
                                 <FaArrowDown className="text-sm" />
                             </span>
-                        </li>
-                        <li className="p-2 flex-1 hover:underline  font-bold">
+                        </Link>
+                        <Link
+                            to={"/pricing"}
+                            className="p-2 flex-1 hover:underline  font-bold"
+                        >
                             Pricing
-                        </li>
+                        </Link>
                     </ul>
                 </nav>
                 <div className="p-2 flex gap-0  rounded-lg hover:bg-gray-200 cursor-pointer">

@@ -9,8 +9,8 @@ const Card = ({ cardImgUsed }: CardProps) => {
             <div className="max-w-full">
                 <img src={cardImgUsed} alt="Improve your UI illustration" />
             </div>
-            <div className="flex items-center">
-                <h1 className="text-xl font-extrabold mt-7 text-[#121245]">
+            <div className="flex place-items-start mt-7">
+                <h1 className="text-xl font-extrabold  text-[#121245]">
                     Improve Your UI Design Skills and Develop an "Eye" for
                     Design
                 </h1>
