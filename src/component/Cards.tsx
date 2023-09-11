@@ -7,7 +7,7 @@ import cardTableImg from "../assets/img2.jpg";
 
 const Cards = () => {
     return (
-        <div className="grid mt-[25rem] lg:grid-cols-3 md:grid-cols-2 gap-10 border border-[#0000] mb-25  relative sm:mx-2">
+        <div className="grid mt-[25rem] lg:grid-cols-3 md:grid-cols-2 gap-10 border border-[#0000] mb-20  relative sm:mx-2 px-4">
             <Card cardImgUsed={cardImg} />
             <Card cardImgUsed={cardTableImg} />
             <Card cardImgUsed={cardImg} />
@@ -15,7 +15,7 @@ const Cards = () => {
             <Card cardImgUsed={cardImg} />
             <Card cardImgUsed={cardTableImg} />
 
-            <div className="absolute bottom-[-2em] flex justify-between w-full">
+            <div className="absolute bottom-[-3em] flex justify-between w-full">
                 <button className="flex gap-2 items-center font-bold text-[#121245] mr-2 transition-transform duration-300 transform hover:-translate-x-5">
                     <PiArrowLeftBold className="flex gap-2 items-center font-bold text-[#121245]" />
                     <span className="hidden md:block">Previous</span>

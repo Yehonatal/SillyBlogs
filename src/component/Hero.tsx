@@ -2,7 +2,7 @@ import TableIllustration from "../assets/table.jpg";
 
 const Hero = () => {
     return (
-        <>
+        <div className=" px-4">
             <div className="my-[7.5rem] relative">
                 <span className="border-2 border-[#121245] text-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif">
                     Silly Journal
@@ -97,7 +97,7 @@ const Hero = () => {
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
