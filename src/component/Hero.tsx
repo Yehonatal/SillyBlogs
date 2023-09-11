@@ -43,7 +43,7 @@ const Hero = () => {
                     ))}
                 </div> */}
             </div>
-            <div className="lg:h-[775px] md:h-[220px] max-sm:h-[350px] sm:h[200px] w-full bg-cover">
+            <div className="lg:h-[775px] min-md:h-[120px] max-sm:h-[350px] sm:h[200px] w-full bg-cover">
                 <img
                     className="max-sm:h-2/4 lg:h-3/4 w-full object-cover object-bottom z-[-1]"
                     src={TableIllustration}
@@ -74,7 +74,7 @@ const Hero = () => {
                         Unknown Writer
                     </h1>
                 </div>
-                <div className="border-l-4 border-[#121245] px-5 absolute lg:bottom-[-250px] md:bottom-[-350px] sm:bottom-[-450px] right-1">
+                <div className="border-l-4 border-[#121245] px-5 absolute lg:bottom-[-250px]  min-md:bottom-[-350px] min-md:bottom-[250px] sm:bottom-[-115px] right-1">
                     <h3 className="font-bold text-[#121245] text-xl">
                         Published on
                     </h3>

@@ -4,14 +4,14 @@ import { HiMenuAlt4 } from "react-icons/hi";
 const Header = () => {
     return (
         <header className="py-2 min-lg:my-10 flex items-center justify-between  min-w-full max-w-screen-xl">
-            <div className="font-extrabold text-lg lg:w-full sm:w-[100px] text-[#121245]">
+            <div className="font-extrabold text-lg lg:w-full text-[#121245]">
                 Untitled Blogs
                 <span className="mx-2 border-2 text-[#121245] border-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif">
                     Silly Journal
                 </span>
             </div>
             <div className="flex items-center p-2 gap-5 ">
-                <nav className="max-lg:block max-md:block max-sm:hidden ">
+                <nav className="max-lg:block max-md:block max-sm:hidden select-none">
                     <ul className="flex items-center p-2 gap-5 font-bold cursor-pointer text-[#121245]">
                         <li className="p-2 rounded-lg hover:underline flex-1 font-bold">
                             Home
