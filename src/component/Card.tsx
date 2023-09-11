@@ -14,8 +14,8 @@ const Card = ({ cardImgUsed }: CardProps) => {
                     Improve Your UI Design Skills and Develop an "Eye" for
                     Design
                 </h1>
-                <div className=" rotate-90">
-                    <RiArrowLeftUpLine className="scale-[1.5] border-[#121245] fill-[#535381]" />
+                <div className=" rotate-90 cursor-pointer">
+                    <RiArrowLeftUpLine className="scale-[1.5] border-[#121245] fill-[#535381] transition-transform duration-300 transform hover:translate-x-5 cursor-pointer" />
                 </div>
             </div>
             <p className="mt-2 font-bold text-md text-[#121245] hyphens-auto">
