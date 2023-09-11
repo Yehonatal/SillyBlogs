@@ -29,22 +29,34 @@ const Header = () => {
                             <div className="absolute top-10 bg-slate-50 p-4 rounded-md hidden  group-hover:block transition-all ">
                                 <ul>
                                     <li className="hover:underline p-1 rounded-sm">
-                                        <a href="#" target="_blank">
+                                        <a
+                                            href="https://github.com/Yehonatal/SillyBlogs"
+                                            target="_blank"
+                                        >
                                             Github
                                         </a>
                                     </li>
                                     <li className="hover:underline p-1 rounded-sm">
-                                        <a href="#" target="_blank">
+                                        <a
+                                            href="https://react.dev/"
+                                            target="_blank"
+                                        >
                                             React
                                         </a>
                                     </li>
                                     <li className="hover:underline p-1 rounded-sm">
-                                        <a href="#" target="_blank">
+                                        <a
+                                            href="https://tailwindcss.com/"
+                                            target="_blank"
+                                        >
                                             Tailwind
                                         </a>
                                     </li>
                                     <li className="hover:underline p-1 rounded-sm">
-                                        <a href="#" target="_blank">
+                                        <a
+                                            href="https://www.typescriptlang.org/"
+                                            target="_blank"
+                                        >
                                             Typescript
                                         </a>
                                     </li>
