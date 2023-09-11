@@ -51,10 +51,10 @@ const Hero = () => {
                 />
             </div>
             <div className="relative">
-                <span className="border-2 border-[#121245] text-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif">
+                <span className="border-2 border-[#121245] text-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif ">
                     The best of our platform
                 </span>
-                <h1 className="text-extrabold text-5xl font-extrabold font-system text-[#121245] my-2 max-md:text-3xl">
+                <h1 className="text-extrabold text-5xl font-extrabold font-system text-[#121245] my-5 max-md:text-3xl ">
                     Unleashing the Potential of Artificial Intelligence: How
                     Tech and AI Innovations Are Set to Transform the World for
                     Good
