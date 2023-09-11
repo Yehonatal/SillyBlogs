@@ -17,16 +17,20 @@ const Cards = () => {
             <Card cardImgUsed={card1Img} />
 
             <div className="absolute bottom-[-3em] flex justify-between w-full">
-                <button className="flex gap-2 items-center font-bold text-[#121245] mr-2 transition-transform duration-300 transform hover:-translate-x-5">
-                    <PiArrowLeftBold className="flex gap-2 items-center font-bold text-[#121245]" />
-                    <span className="hidden md:block">Previous</span>
+                <button className="flex gap-2 group items-center font-bold text-[#121245] mr-2 ">
+                    <PiArrowLeftBold className="flex gap-2 items-center font-bold text-[#78788f] transition-transform duration-300 transform group-hover:-translate-x-5" />
+                    <span className="hidden md:block transition-all group-hover:scale-[1.05]">
+                        Previous
+                    </span>
                 </button>
                 <div>
                     <p className="font-bold text-[#121245]">Page 1 of 4</p>
                 </div>
-                <button className="flex gap-2 items-center font-bold text-[#121245] ml-2 transition-transform duration-300 transform hover:translate-x-5">
-                    <span className="hidden md:block">Next</span>
-                    <PiArrowRightBold className="flex gap-2 items-center font-bold text-[#121245] " />
+                <button className="flex group gap-2 items-center font-bold text-[#121245] ml-2 ">
+                    <span className="hidden md:block group-hover:scale-[1.05] transition-all">
+                        Next
+                    </span>
+                    <PiArrowRightBold className="flex gap-2 items-center font-bold text-[#121245]  transition-transform duration-300 transform group-hover:translate-x-5" />
                 </button>
             </div>
         </div>

@@ -21,15 +21,36 @@ const Header = () => {
                             Home
                         </Link>
 
-                        <Link
-                            to={"/resources"}
-                            className="flex items-center hover:underline  p-2 gap-2 rounded-lg flex-1 font-bold"
-                        >
+                        <li className="flex items-center hover:underline  p-2 gap-2 rounded-lg flex-1 font-bold relative group ">
                             Resources{" "}
                             <span>
-                                <FaArrowDown className="text-sm" />
+                                <FaArrowDown className="text-sm group-hover:rotate-180  transition-all " />
                             </span>
-                        </Link>
+                            <div className="absolute top-10 bg-slate-50 p-4 rounded-md hidden  group-hover:block transition-all ">
+                                <ul>
+                                    <li className="hover:underline p-1 rounded-sm">
+                                        <a href="#" target="_blank">
+                                            Github
+                                        </a>
+                                    </li>
+                                    <li className="hover:underline p-1 rounded-sm">
+                                        <a href="#" target="_blank">
+                                            React
+                                        </a>
+                                    </li>
+                                    <li className="hover:underline p-1 rounded-sm">
+                                        <a href="#" target="_blank">
+                                            Tailwind
+                                        </a>
+                                    </li>
+                                    <li className="hover:underline p-1 rounded-sm">
+                                        <a href="#" target="_blank">
+                                            Typescript
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                         <Link
                             to={"/pricing"}
                             className="p-2 flex-1 hover:underline  font-bold"
