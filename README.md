@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + Haven't decided
+# React + TypeScript + Vite + Tailwind + Haven't decided
 
 ![preview](public/preview.png)
 
