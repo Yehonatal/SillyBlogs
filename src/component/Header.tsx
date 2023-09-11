@@ -1,6 +1,5 @@
 import { FaArrowDown } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
-// import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
