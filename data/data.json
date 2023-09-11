@@ -20,7 +20,7 @@
             "description": "Dive into the aquatic world of seahorses and their fascinating secrets.",
             "date": "September 11, 2023 3:45:00 PM",
             "content": "Venture beneath the waves and uncover the hidden lives of seahorses. These tiny creatures are full of surprises, from their intricate courtship dances to their incredible camouflage abilities. Join us on a journey to explore the mesmerizing world of seahorses and gain a deeper appreciation for the wonders of the ocean.",
-            "picture_address": "https://example.com/seahorses.jpg",
+            "picture_address": "src/assets/img1.jpg",
             "content_about": [
                 "Seahorses",
                 "Underwater Mysteries",
@@ -34,7 +34,7 @@
             "description": "Discover the fascinating science behind why laughter is the best medicine.",
             "date": "September 11, 2023 5:15:00 PM",
             "content": "Ever wondered why a good laugh can instantly lift your spirits? Delve into the science of laughter and explore how humor affects our brains and bodies. Learn about the release of endorphins, the psychology of jokes, and the healing power of a hearty chuckle. Get ready to embrace the joy of laughter and its incredible benefits.",
-            "picture_address": "https://example.com/laughter.jpg",
+            "picture_address": "src/assets/img2.jpg",
             "content_about": [
                 "Science of Laughter",
                 "Endorphins",
@@ -48,7 +48,7 @@
             "description": "Embark on a celestial journey and uncover the wonders of the night sky.",
             "date": "September 11, 2023 7:30:00 PM",
             "content": "Step outside and gaze up at the twinkling stars! In this cosmic adventure, we'll introduce you to the world of amateur astronomy. From identifying constellations to observing planets, you'll learn how to navigate the night sky like a pro. Grab your telescope or binoculars and embark on a journey to the stars.",
-            "picture_address": "https://example.com/stargazing.jpg",
+            "picture_address": "src/assets/img3.jpg",
             "content_about": [
                 "Stargazing",
                 "Night Sky",
@@ -62,7 +62,7 @@
             "description": "Witness the enchanting dance of fireflies and their luminous displays.",
             "date": "September 11, 2023 9:00:00 PM",
             "content": "Experience the magic of fireflies as they light up the night with their mesmerizing displays. Learn about the biology behind these bioluminescent insects and their intricate courtship rituals. Join us on a summer evening adventure and discover the beauty of nature's own light show.",
-            "picture_address": "https://example.com/fireflies.jpg",
+            "picture_address": "src/assets/img4.jpg",
             "content_about": [
                 "Fireflies",
                 "Nature's Light Show",
@@ -76,7 +76,7 @@
             "description": "Create your own lush oasis at home and embrace the therapeutic benefits of gardening.",
             "date": "September 11, 2023 10:45:00 PM",
             "content": "Turn your backyard or balcony into a green haven! Gardening is not just about plants; it's a journey of nurturing and growth. Discover the therapeutic benefits of tending to your garden, from reducing stress to connecting with nature. Whether you're a seasoned gardener or a novice, there's something truly magical about watching your plants thrive.",
-            "picture_address": "https://example.com/gardening.jpg",
+            "picture_address": "src/assets/img5.jpg",
             "content_about": [
                 "Gardening",
                 "Therapeutic Benefits",
@@ -90,7 +90,7 @@
             "description": "Unleash your creativity and explore the world through the lens of a camera.",
             "date": "September 12, 2023 11:30:00 AM",
             "content": "Photography is more than just taking pictures; it's a form of artistic expression. Join us on a visual journey as we delve into the art of photography. From mastering composition and lighting to finding beauty in everyday scenes, you'll discover the joy of capturing life's beautiful moments through the lens of a camera.",
-            "picture_address": "https://example.com/photography.jpg",
+            "picture_address": "src/assets/img6.jpg",
             "content_about": [
                 "Photography",
                 "Artistic Expression",
@@ -104,7 +104,7 @@
             "description": "Embark on a gastronomic journey and savor the tastes of diverse cuisines.",
             "date": "September 12, 2023 1:15:00 PM",
             "content": "Take your taste buds on a whirlwind tour of global flavors! Join us as we explore the culinary delights of various cuisines from around the world. From spicy Indian curries to savory Italian pasta dishes, there's a world of flavors waiting to be discovered in your own kitchen. Get ready for a culinary adventure like no other!",
-            "picture_address": "https://example.com/cuisine.jpg",
+            "picture_address": "src/assets/img7.jpg",
             "content_about": [
                 "Culinary Adventure",
                 "Global Flavors",
@@ -118,7 +118,7 @@
             "description": "Step into the immersive world of virtual reality and experience gaming like never before.",
             "date": "September 12, 2023 3:00:00 PM",
             "content": "Virtual reality (VR) is revolutionizing the way we experience entertainment. Dive into the immersive realms of VR gaming, storytelling, and exploration. Discover the latest VR technologies, from high-quality headsets to captivating virtual worlds. Strap on your VR headset and prepare to embark on exciting adventures in the digital realm!",
-            "picture_address": "https://example.com/virtual-reality.jpg",
+            "picture_address": "src/assets/img1.jpg",
             "content_about": [
                 "Virtual Reality",
                 "Immersive Gaming",
@@ -132,7 +132,7 @@
             "description": "Embark on a gastronomic journey and savor the tastes of diverse cuisines.",
             "date": "September 12, 2023 1:15:00 PM",
             "content": "Take your taste buds on a whirlwind tour of global flavors! Join us as we explore the culinary delights of various cuisines from around the world. From spicy Indian curries to savory Italian pasta dishes, there's a world of flavors waiting to be discovered in your own kitchen. Get ready for a culinary adventure like no other!",
-            "picture_address": "https://example.com/cuisine.jpg",
+            "picture_address": "src/assets/img2.jpg",
             "content_about": [
                 "Culinary Adventure",
                 "Global Flavors",
@@ -146,7 +146,7 @@
             "description": "Discover the wonders of the night sky and become a stargazing pro.",
             "date": "September 13, 2023 2:30:00 PM",
             "content": "Gazing up at the stars can be a breathtaking experience, but it can also be overwhelming for beginners. Join us as we demystify the night sky and provide valuable tips for aspiring stargazers. From identifying constellations to choosing the right telescope, you'll soon be exploring the cosmos with confidence.",
-            "picture_address": "https://example.com/starry-nights.jpg",
+            "picture_address": "src/assets/img3.jpg",
             "content_about": [
                 "Stargazing",
                 "Night Sky",
@@ -160,7 +160,7 @@
             "description": "Escape into the world of literature and reignite your love for reading.",
             "date": "September 13, 2023 4:15:00 PM",
             "content": "In today's fast-paced world, the simple pleasure of reading is often overlooked. Join us on a literary journey as we celebrate the joy of books. From classic novels to contemporary bestsellers, there's a book for everyone. Discover the magic of storytelling and reconnect with the world of literature.",
-            "picture_address": "https://example.com/reading.jpg",
+            "picture_address": "src/assets/img4.jpg",
             "content_about": [
                 "Reading",
                 "Literary Journey",
@@ -174,7 +174,7 @@
             "description": "Explore the art of meditation and unlock a state of inner calm.",
             "date": "September 13, 2023 6:00:00 PM",
             "content": "In the midst of life's chaos, finding inner peace can be a challenge. Meditation offers a path to tranquility and mindfulness. Join us as we delve into the practice of meditation and guide you on a journey to inner calm. Discover techniques, tips, and the transformative power of stillness.",
-            "picture_address": "https://example.com/meditation.jpg",
+            "picture_address": "src/assets/img5.jpg",
             "content_about": [
                 "Meditation",
                 "Inner Peace",
@@ -188,7 +188,7 @@
             "description": "Embark on a wildlife adventure and discover the beauty of our planet's creatures.",
             "date": "September 13, 2023 8:30:00 PM",
             "content": "Earth is home to a breathtaking array of wildlife, from the depths of the oceans to the highest mountain peaks. Join us on a virtual journey to explore the rich and diverse ecosystems that make up our planet. From majestic whales to elusive jungle cats, you'll be amazed by the wonders of the natural world.",
-            "picture_address": "https://example.com/wildlife.jpg",
+            "picture_address": "src/assets/img6.jpg",
             "content_about": [
                 "Wildlife Adventure",
                 "Diverse Ecosystems",
@@ -202,7 +202,7 @@
             "description": "Embark on adrenaline-pumping adventures and explore hidden gems around the globe.",
             "date": "September 14, 2023 10:00:00 AM",
             "content": "If you crave excitement and exploration, adventure travel is your ticket to unforgettable experiences. Join us as we take you to off-the-beaten-path destinations and share thrilling stories of adventure. From trekking in remote jungles to diving into underwater caves, get ready for the thrill of a lifetime!",
-            "picture_address": "https://example.com/adventure-travel.jpg",
+            "picture_address": "src/assets/img7.jpg",
             "content_about": [
                 "Adventure Travel",
                 "Hidden Gems",
@@ -216,7 +216,7 @@
             "description": "Savor the aroma and flavors of coffee from around the world.",
             "date": "September 14, 2023 12:45:00 PM",
             "content": "Coffee is more than a morning pick-me-up; it's a global passion. Join us on a caffeinated journey as we explore the world of coffee. From Ethiopian single-origin beans to Italian espresso traditions, there's a rich tapestry of flavors waiting to be savored. Discover the art of brewing and elevate your coffee experience.",
-            "picture_address": "https://example.com/coffee.jpg",
+            "picture_address": "src/assets/table.jpg",
             "content_about": [
                 "Coffee",
                 "Coffee Aroma",

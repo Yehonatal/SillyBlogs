@@ -59,7 +59,7 @@ const Hero = () => {
                     Tech and AI Innovations Are Set to Transform the World for
                     Good
                 </h1>
-                <p className="text-3xl  text-[#121245] max-md:text-xl">
+                <p className="text-3xl  text-[#121245] max-md:text-xl hyphens-auto">
                     we embark on a captivating journey into the realm of
                     cutting-edge technology and its remarkable impact on
                     society. Explore how artificial intelligence (AI) is
