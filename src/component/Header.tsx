@@ -4,10 +4,10 @@ import { HiMenuAlt4 } from "react-icons/hi";
 
 const Header = () => {
     return (
-        <header className="p-2 m-2 flex items-center justify-between  min-w-full max-w-screen-lg">
+        <header className="py-2 min-lg:my-10 flex items-center justify-between  min-w-full max-w-screen-xl">
             <div className="font-extrabold text-lg lg:w-full sm:w-[100px] text-[#121245]">
                 Untitled Blogs
-                <span className="mx-2 border-2 border-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif">
+                <span className="mx-2 border-2 text-[#121245] border-[#121245] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif">
                     Silly Journal
                 </span>
             </div>
