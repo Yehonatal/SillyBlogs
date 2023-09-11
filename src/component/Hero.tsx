@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className="text-extrabold text-6xl font-extrabold font-system text-[#121245] my-2 max-md:text-4xl">
                     The Untitled Blogs Journal
                 </h1>
-                <p className="text-2xl max-sm:w-full lg:w-[750px] text-[#121245] max-md:text-xl">
+                <p className="text-2xl max-sm:w-full lg:w-[750px] text-[#121245] max-md:text-xl font-bold">
                     where words come to life, and stories are waiting to be
                     told. Explore a world of creativity, inspiration, and untold
                     narratives.
