@@ -90,7 +90,7 @@ const Header = () => {
                                 Silly Journal
                             </span>
                         </div>
-                        <ul className="flex flex-col justify-center p-2 z-40 border-1 w-full text-2xl text-left gap-5 font-bold cursor-pointer text-[#121245]">
+                        <ul className="flex flex-col justify-center p-2 z-40 border-1 w-full text-xl text-left gap-5 font-bold cursor-pointer text-[#121245]">
                             <Link
                                 to={"/"}
                                 className="p-2 rounded-lg hover:underline flex-1 font-bold"
@@ -103,7 +103,7 @@ const Header = () => {
                             >
                                 Pricing
                             </Link>
-                            <li className="flex flex-col relative  p-2 gap-2 rounded-lg flex-1 font-bold  group ">
+                            <li className="flex flex-col relative p-2 gap-2 rounded-lg flex-1 font-bold  group ">
                                 Resources{" "}
                                 <div className=" bg-slate-50 p-4 absolute top-10 rounded-md hidden  group-hover:block transition-all ">
                                     <ul className="select-none">
