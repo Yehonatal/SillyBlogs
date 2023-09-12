@@ -9,8 +9,8 @@ const Header = () => {
     const [isOpen, setIsMenuOpen] = useState(true);
 
     isOpen
-        ? (document.body.style.overflowY = "hidden")
-        : (document.body.style.overflowY = "scroll");
+        ? (document.body.style.overflowY = "scroll")
+        : (document.body.style.overflowY = "hidden");
 
     return (
         <header className="py-2 px-4 min-lg:my-10 flex items-center justify-between  min-w-full max-w-screen-xl relative">
@@ -86,7 +86,7 @@ const Header = () => {
                             className="text-4xl font-normal absolute top-4 right-10 cursor-pointer"
                             onClick={() => {
                                 setVisible(false);
-                                setIsMenuOpen(false);
+                                setIsMenuOpen(true);
                             }}
                         >
                             <IoMdClose />
@@ -156,7 +156,7 @@ const Header = () => {
                     className="p-2 gap-0  rounded-lg hover:bg-gray-200 cursor-pointer md:hidden lg:hidden flex"
                     onClick={() => {
                         setVisible(true);
-                        setIsMenuOpen(true);
+                        setIsMenuOpen(false);
                     }}
                 >
                     <HiMenuAlt4 />
