@@ -18,7 +18,7 @@ const Cards = () => {
 
             <div className="absolute bottom-[-3em] flex justify-between w-full">
                 <button className="flex gap-2 group items-center font-bold text-[#121245] mr-2 ">
-                    <PiArrowLeftBold className="flex gap-2 items-center font-bold text-[#78788f] transition-transform duration-300 transform group-hover:-translate-x-5" />
+                    <PiArrowLeftBold className="flex gap-2 items-center font-bold text-[#78788f] transition-transform duration-300 transform group-hover:-translate-x-5 select-none" />
                     <span className="hidden md:block transition-all group-hover:scale-[1.05]">
                         Previous
                     </span>

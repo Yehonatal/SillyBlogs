@@ -6,6 +6,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     const [visible, setVisible] = useState(false);
+    const [isOpen, setIsMenuOpen] = useState(true);
+
+    isOpen
+        ? (document.body.style.overflowY = "hidden")
+        : (document.body.style.overflowY = "scroll");
+
     return (
         <header className="py-2 px-4 min-lg:my-10 flex items-center justify-between  min-w-full max-w-screen-xl relative">
             <div className="font-extrabold text-lg lg:w-full  text-[#121245]">
@@ -80,6 +86,7 @@ const Header = () => {
                             className="text-4xl font-normal absolute top-4 right-10 cursor-pointer"
                             onClick={() => {
                                 setVisible(false);
+                                setIsMenuOpen(false);
                             }}
                         >
                             <IoMdClose />
@@ -147,7 +154,10 @@ const Header = () => {
                 )}
                 <div
                     className="p-2 gap-0  rounded-lg hover:bg-gray-200 cursor-pointer md:hidden lg:hidden flex"
-                    onClick={() => setVisible(true)}
+                    onClick={() => {
+                        setVisible(true);
+                        setIsMenuOpen(true);
+                    }}
                 >
                     <HiMenuAlt4 />
                     <HiMenuAlt4 className="mx-[-6px]" />
