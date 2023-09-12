@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaArrowDown } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
+import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -74,14 +75,14 @@ const Header = () => {
                     </ul>
                 </nav>
                 {visible && (
-                    <div className="absolute left-0 right-0 bg-slate-300 top-0 h-[50vh] z-30">
+                    <div className="absolute select-none left-0 right-0 bg-slate-50 top-0 h-[100vh] z-30 grid place-content-center">
                         <div
-                            className="text-4xl font-normal absolute bottom-2 right-5 cursor-pointer"
+                            className="text-4xl font-normal absolute top-4 right-10 cursor-pointer"
                             onClick={() => {
                                 setVisible(false);
                             }}
                         >
-                            x
+                            <IoMdClose />
                         </div>
                         <div className="font-extrabold text-lg lg:w-full p-4 text-[#121245]">
                             Untitled Blogs
@@ -89,7 +90,7 @@ const Header = () => {
                                 Silly Journal
                             </span>
                         </div>
-                        <ul className="flex flex-col border-1 border-[green] w-full text-2xl text-left p-2 gap-5 font-bold cursor-pointer text-[#121245]">
+                        <ul className="flex flex-col justify-center p-2 z-40 border-1 w-full text-2xl text-left gap-5 font-bold cursor-pointer text-[#121245]">
                             <Link
                                 to={"/"}
                                 className="p-2 rounded-lg hover:underline flex-1 font-bold"
@@ -102,10 +103,9 @@ const Header = () => {
                             >
                                 Pricing
                             </Link>
-
-                            <li className="flex flex-col hover:underline  p-2 gap-2 rounded-lg flex-1 font-bold  group ">
+                            <li className="flex flex-col relative  p-2 gap-2 rounded-lg flex-1 font-bold  group ">
                                 Resources{" "}
-                                <div className=" bg-slate-50 p-4 rounded-md hidden  group-hover:block transition-all ">
+                                <div className=" bg-slate-50 p-4 absolute top-10 rounded-md hidden  group-hover:block transition-all ">
                                     <ul className="select-none">
                                         <li className="hover:underline p-1 rounded-sm">
                                             <a
