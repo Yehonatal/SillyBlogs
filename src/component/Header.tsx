@@ -22,7 +22,7 @@ const Header = () => {
             <div className="font-extrabold text-lg lg:w-full  text-[#121245]">
                 Untitled Blogs
                 <span
-                    className={`mx-2 border-2 text-${PRIMARY_COLOR} border-${PRIMARY_COLOR} rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif`}
+                    className={`mx-2 border-2 text-[${PRIMARY_COLOR}] border-[${PRIMARY_COLOR}] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif`}
                 >
                     Silly Journal
                 </span>
@@ -112,7 +112,7 @@ const Header = () => {
                         <div className="font-extrabold text-lg lg:w-full p-4 text-[#121245]">
                             Untitled Blogs
                             <span
-                                className={`mx-2 border-2 text-${PRIMARY_COLOR} border-${PRIMARY_COLOR} bg-${WHITE_COLOR} rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif`}
+                                className={`mx-2 border-2 text-[${PRIMARY_COLOR}] border-[${PRIMARY_COLOR}] bg-[${WHITE_COLOR}] rounded-[20px] italic px-2 py-1 font-semibold text-sm font-serif`}
                             >
                                 Silly Journal
                             </span>
